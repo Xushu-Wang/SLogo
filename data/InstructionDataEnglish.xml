@@ -1,0 +1,402 @@
+<SLogo>
+  <Instruction>
+    <Name>FORWARD</Name>
+    <Alternate>FD</Alternate>
+    <Description>moves turtle forward in its current heading by pixels distance</Description>
+    <Example>fd 50</Example>
+    <ReturnType>returns distance turtle moved (the value of pixels)</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>BACK</Name>
+    <Alternate>BK</Alternate>
+    <Description>moves turtle backward in its current heading by pixels distance</Description>
+    <Example>bk 50</Example>
+    <ReturnType>returns distance turtle moved (the value of pixels)</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>LEFT</Name>
+    <Alternate>LT</Alternate>
+    <Description>turns turtle counterclockwise by degrees angle</Description>
+    <Example>lt 90</Example>
+    <ReturnType>returns amount turtle turned (the value of degrees)</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>RIGHT</Name>
+    <Alternate>RT</Alternate>
+    <Description>turns turtle clockwise by degrees angle</Description>
+    <Example>rt 90</Example>
+    <ReturnType>returns amount turtle turned (the value of degrees)</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>SETHEADING</Name>
+    <Alternate>SETH</Alternate>
+    <Description>turns turtle to an absolute heading</Description>
+    <Example>seth 120</Example>
+    <ReturnType>returns number of degrees turned</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>TOWARDS</Name>
+    <Alternate>towards</Alternate>
+    <Description>turns turtle to face the point (x, y), where (0, 0) is the center of the screen</Description>
+    <Example>towards 10 20</Example>
+    <ReturnType>returns the number of degrees turtle turned</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>SETXY</Name>
+    <Alternate>GOTO</Alternate>
+    <Description>moves turtle to an absolute screen position, where (0, 0) is the center of the screen</Description>
+    <Example>setxy 30 40</Example>
+    <ReturnType>returns distance turtle moved</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>PENDOWN</Name>
+    <Alternate>PD</Alternate>
+    <Description>puts pen down such that when the turtle moves, it leaves a trail</Description>
+    <Example>pd</Example>
+    <ReturnType>returns 1</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>PENUP</Name>
+    <Alternate>PU</Alternate>
+    <Description>puts pen up such that when the turtle moves, it does not leave a trail</Description>
+    <Example>pu</Example>
+    <ReturnType>returns 0</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>SHOWTURTLE</Name>
+    <Alternate>ST</Alternate>
+    <Description>makes turtle visible</Description>
+    <Example>st</Example>
+    <ReturnType>returns 1</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>HIDETURTLE</Name>
+    <Alternate>HT</Alternate>
+    <Description>makes turtle invisible</Description>
+    <Example>ht</Example>
+    <ReturnType>returns 0</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>HOME</Name>
+    <Alternate>home</Alternate>
+    <Description>moves turtle to the center of the screen (0 0)</Description>
+    <Example>home</Example>
+    <ReturnType>returns distance turtle moved</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>CLEARSCREEN</Name>
+    <Alternate>CS</Alternate>
+    <Description>erases turtle's trails and sends it to the home position</Description>
+    <Example>cs</Example>
+    <ReturnType>returns distance turtle moved</ReturnType>
+    <CommandType>Turtle Action</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>XCOR</Name>
+    <Alternate>xcor</Alternate>
+    <Description>fetches x-coordinate</Description>
+    <Example>xcor</Example>
+    <ReturnType>returns the turtle's X coordinate from the center of the screen</ReturnType>
+    <CommandType>Turtle Query</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>YCOR</Name>
+    <Alternate>ycor</Alternate>
+    <Description>fetches y-coordinate</Description>
+    <Example>ycor</Example>
+    <ReturnType>returns the turtle's Y coordinate from the center of the screen</ReturnType>
+    <CommandType>Turtle Query</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>HEADING</Name>
+    <Alternate>heading</Alternate>
+    <Description>fetches turtle direction angle</Description>
+    <Example>heading</Example>
+    <ReturnType>returns the turtle's heading in degrees</ReturnType>
+    <CommandType>Turtle Query</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>PENDOWN?</Name>
+    <Alternate>PENDOWNP</Alternate>
+    <Description>fetches turtle pen status</Description>
+    <Example>pendown?</Example>
+    <ReturnType>returns 1 if turtle's pen is down, 0 if it is up</ReturnType>
+    <CommandType>Turtle Query</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>SHOWING?</Name>
+    <Alternate>SHOWINGP</Alternate>
+    <Description>fetches turtle display status</Description>
+    <Example>showing?</Example>
+    <ReturnType>returns 1 if turtle is showing, 0 if it is hiding</ReturnType>
+    <CommandType>Turtle Query</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>SUM</Name>
+    <Alternate>+</Alternate>
+    <Description>adds two numbers</Description>
+    <Example>sum 1 50</Example>
+    <ReturnType>returns sum of the values of expr1 and expr2</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>DIFFERENCE</Name>
+    <Alternate>-</Alternate>
+    <Description>substracts two numbers</Description>
+    <Example>5 difference 3</Example>
+    <ReturnType>returns difference of the values of expr1 and expr2</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>PRODUCT</Name>
+    <Alternate>*</Alternate>
+    <Description>multiply two numbers</Description>
+    <Example>5 * 2</Example>
+    <ReturnType>returns product of the values of expr1 and expr2</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>QUOTIENT</Name>
+    <Alternate>/</Alternate>
+    <Description>divides two numbers</Description>
+    <Example>5 / 3</Example>
+    <ReturnType>returns quotient of the values of expr1 and expr2</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>REMAINDER</Name>
+    <Alternate>%</Alternate>
+    <Description>takes number modulo </Description>
+    <Example>5 % 3</Example>
+    <ReturnType>returns remainder on dividing the values of expr1 by expr2</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>MINUS</Name>
+    <Alternate>~</Alternate>
+    <Description>takes negative of number</Description>
+    <Example>~3</Example>
+    <ReturnType>returns negative of the values of expr</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>RANDOM</Name>
+    <Alternate>RAND</Alternate>
+    <Description>generates random number</Description>
+    <Example>rand 100</Example>
+    <ReturnType>returns random non-negative number strictly less than max</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>RANDOMRANGE</Name>
+    <Alternate>RANDR</Alternate>
+    <Description>generates random number</Description>
+    <Example>randomrange 1 50</Example>
+    <ReturnType>returns random number within the given range min to max, inclusive</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>SINE</Name>
+    <Alternate>SIN</Alternate>
+    <Description>calculates sin value</Description>
+    <Example>sin 60</Example>
+    <ReturnType>returns sine of degrees</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>COSINE</Name>
+    <Alternate>COS</Alternate>
+    <Description>calculates cos value</Description>
+    <Example>cos 60</Example>
+    <ReturnType>return cosine of degrees</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>TANGENT</Name>
+    <Alternate>TAN</Alternate>
+    <Description>calculates tan value</Description>
+    <Example>tan 60</Example>
+    <ReturnType>returns tangent of degrees</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>ARCTANGENT</Name>
+    <Alternate>ATAN</Alternate>
+    <Description>calculates arctan value</Description>
+    <Example>atan 1.0</Example>
+    <ReturnType>returns arctangent of degrees</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>SQUAREROOT</Name>
+    <Alternate>SQRT</Alternate>
+    <Description>calculates square root of number</Description>
+    <Example>sqrt 2</Example>
+    <ReturnType>returns square root of expr</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>LOG</Name>
+    <Alternate>log</Alternate>
+    <Description>calculates log of number</Description>
+    <Example>log 10</Example>
+    <ReturnType>returns natural log of expr</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>POWER</Name>
+    <Alternate>POW</Alternate>
+    <Description>calculates power of number</Description>
+    <Example>pow 2 4</Example>
+    <ReturnType>returns base raised to the power of the exponent</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>PI</Name>
+    <Alternate>pi</Alternate>
+    <Description>gives pi value</Description>
+    <Example>pi</Example>
+    <ReturnType>returns value of the number Pi (Math.PI)</ReturnType>
+    <CommandType>Math Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>LESS?</Name>
+    <Alternate>&lt;</Alternate>
+    <Description>evaluates if number less than another</Description>
+    <Example>less? 3 5</Example>
+    <ReturnType>returns 1 if the value of expr1 is strictly less than the value of expr2, otherwise 0</ReturnType>
+    <CommandType>Boolean Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>LESSEQUAL?</Name>
+    <Alternate>&lt;=</Alternate>
+    <Description>evaluates if number less than or equal to another</Description>
+    <Example>lessequal? 3 5</Example>
+    <ReturnType>returns 1 if the value of expr1 is less than or equal to the value of expr2, otherwise 0</ReturnType>
+    <CommandType>Boolean Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>GREATER?</Name>
+    <Alternate>&gt;</Alternate>
+    <Description>evaluates if number greater than another</Description>
+    <Example>greater? 4 10</Example>
+    <ReturnType>returns 1 if the value of expr1 is strictly greater than the value of expr2, otherwise 0</ReturnType>
+    <CommandType>Boolean Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>GREATEREQUAL?</Name>
+    <Alternate>&gt;=</Alternate>
+    <Description>evaluates if number greater than or equal to another</Description>
+    <Example>greaterequal? 4 10</Example>
+    <ReturnType>returns 1 if the value of expr1 is greater than or equal to the value of expr2, otherwise 0</ReturnType>
+    <CommandType>Boolean Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>EQUAL?</Name>
+    <Alternate>==</Alternate>
+    <Description>evaluates if two numbers are equal</Description>
+    <Example>equal? 3 3</Example>
+    <ReturnType>returns 1 if the value of expr1 and the value of expr2 are equal, otherwise 0</ReturnType>
+    <CommandType>Boolean Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>NOTEQUAL?</Name>
+    <Alternate>!=</Alternate>
+    <Description>evaluates is two numbers are not equal</Description>
+    <Example>notequal? 2 3</Example>
+    <ReturnType>returns 1 if the value of expr1 and the value of expr2 are not equal, otherwise 0</ReturnType>
+    <CommandType>Boolean Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>AND</Name>
+    <Alternate>and</Alternate>
+    <Description>evaluates AND value</Description>
+    <Example>and 1 1</Example>
+    <ReturnType>returns 1 if test1 and test2 are non-zero, otherwise 0</ReturnType>
+    <CommandType>Boolean Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>OR</Name>
+    <Alternate>or</Alternate>
+    <Description>evaluates OR value</Description>
+    <Example>or 1 0</Example>
+    <ReturnType>returns 1 if test1 or test2 are non-zero, otherwise 0</ReturnType>
+    <CommandType>Boolean Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>NOT</Name>
+    <Alternate>not</Alternate>
+    <Description>evaluates NOT value</Description>
+    <Example>not 1</Example>
+    <ReturnType>returns 1 if test is 0 and 0 if test is non-zero</ReturnType>
+    <CommandType>Boolean Operation</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>MAKE</Name>
+    <Alternate>SET</Alternate>
+    <Description>assigns a value to variable, creating the variable if necessary</Description>
+    <Example>make :a 3</Example>
+    <ReturnType>returns value of variable</ReturnType>
+    <CommandType>User Defined Command</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>REPEAT</Name>
+    <Alternate>repeat</Alternate>
+    <Description>runs action(s) given in the list the value of expr number of times</Description>
+    <Example>REPEAT expr [ action(s) ]</Example>
+    <ReturnType>returns the value of the final action executed (or 0 if no commands are executed)</ReturnType>
+    <CommandType>Loop Structure</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>DOTIMES</Name>
+    <Alternate>dotimes</Alternate>
+    <Description>runs action(s) for each value specified in the range, i.e., from (1 - limit) inclusive</Description>
+    <Example>DOTIMES [ variable limit ] [ action(s) ]</Example>
+    <ReturnType>returns the value of the final action executed (or 0 if no commands are executed)</ReturnType>
+    <CommandType>Loop Structure</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>FOR</Name>
+    <Alternate>for</Alternate>
+    <Description>runs action(s) for each value specified in the range, i.e., from (start - end), going by increment</Description>
+    <Example>FOR [ variable start end increment ] [ action(s) ]</Example>
+    <ReturnType>returns the value of the final action executed (or 0 if no commands are executed)</ReturnType>
+    <CommandType>Loop Structure</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>IF</Name>
+    <Alternate>if</Alternate>
+    <Description>if expr is not 0, runs the action(s) given in the list</Description>
+    <Example>IF expr [ action(s) ]</Example>
+    <ReturnType>returns the value of the final action executed (or 0 if no commands are executed)</ReturnType>
+    <CommandType>Control Structure</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>IFELSE</Name>
+    <Alternate>ifelse</Alternate>
+    <Description>if expr is not 0, runs the trueCommand(s) given in the first list, otherwise runs the falseCommand(s) given in the second list</Description>
+    <Example>IFELSE expr [ trueCommand(s) ] [ falseCommand(s) ]</Example>
+    <ReturnType>returns the value of the final action executed (or 0 if no commands are executed)</ReturnType>
+    <CommandType>Control Structure</CommandType>
+  </Instruction>
+  <Instruction>
+    <Name>TO</Name>
+    <Alternate>to</Alternate>
+    <Description>assigns action(s) given in the second list to commandName using variable(s) given in first list as parameters</Description>
+    <Example>TO commandName [ variable(s) ] [ action(s) ]</Example>
+    <ReturnType>returns 1 if action is successfully defined, otherwise 0</ReturnType>
+    <CommandType>User Defined Command</CommandType>
+  </Instruction>
+</SLogo>

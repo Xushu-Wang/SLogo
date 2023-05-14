@@ -1,0 +1,98 @@
+.root {
+  -fx-font-family: "Comic Sans MS";
+  /*-fx-background: cornsilk;*/
+  -fx-background-color: background-color;
+  -fx-font-size: 16pt;
+  -fx-hgap: 10px;
+  -fx-vgap: 10px;
+  -fx-padding: 5px 10px 10px 10px; /* top, right, bottom, and left padding. */
+  /* define variables to avoid duplicating values */
+  background-color: #53CCEC;
+  canvas-color: #FFFCF2;
+  sub-window-color: #FFF7D9;
+  window-color: #FFE6B6;
+  border-color: #000181;
+  text-color: #000181;
+  title-text-color: #FFCC98;
+  error-color: red;
+  error-text-color: white;
+}
+
+.titlebar {
+  /*-fx-alignment: baseline-left;*/
+}
+
+.title-text {
+  -fx-fill: title-text-color;
+  -fx-stroke: text-color;
+  -fx-font-size: 48px;
+  -fx-stroke-width: 1px;
+  -fx-alignment: baseline-left;
+}
+
+.test-center{
+  -fx-alignment: baseline-center;
+}
+
+.test-right{
+  -fx-alignment: baseline-right;
+}
+
+.window {
+  -fx-border-style: solid;
+  -fx-border-color: border-color;
+  -fx-background-color: window-color;
+}
+
+.window-text{
+  -fx-wrap-text: true;
+  -fx-font-size: 12pt;
+  -fx-text-alignment: left;
+}
+
+.sub-window{
+  /*-fx-border-style: solid;*/
+  /*-fx-border-color: border-color;*/
+  -fx-alignment: baseline-center;
+  -fx-background-color: sub-window-color;
+  -fx-spacing: 8px;
+}
+
+.button {
+  -fx-text-fill: text-color;
+  /*-fx-font-size: 20px;*/
+  -fx-border-style: solid;
+  /*-fx-border-insets: 0, 0px, 0, 0px;*/
+  -fx-background-color: sub-window-color;
+  -fx-padding: 0;
+  /*-fx-padding: 16px, 64px, 16px, 64px;*/
+}
+
+/*
+.outline.label .text {
+  -fx-fill: lightseagreen;
+  -fx-stroke: firebrick;
+  -fx-stroke-width: 2px;
+}
+https://stackoverflow.com/questions/27453799/how-do-i-draw-a-border-around-the-text-of-a-javafx-label
+*/
+
+.canvas {
+  -fx-alignment: baseline-center;
+  -fx-border-style: solid;
+  -fx-background-color: canvas-color;
+  -fx-hgap: 20px;
+  -fx-vgap: 10px;
+}
+
+.input {
+  -fx-background-color: black;
+  -fx-highlight-fill: window-color;
+  -fx-highlight-text-fill: text-color;
+}
+
+.meme {
+  -fx-max-height: 100px;
+  -fx-max-width: 100px;
+  -fx-alignment: center;
+}

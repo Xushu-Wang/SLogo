@@ -1,0 +1,8 @@
+# same as fd 100
+fd fd 50
+
+# same as rt 100 fd 100
+fd rt 100
+
+# same as fd 100
+fd * greaterThan? 5 3 100
