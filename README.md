@@ -2,11 +2,14 @@
 
 
 
-Welcome to the SLogo project! This Integrated Development Environment (IDE) is crafted for the Logo programming language, as part of Duke University’s CS 308, focusing on Design and Implementation. Our team, composed of five developers, has worked meticulously to provide approximately 6300 lines of code that bring you an immersive turtle-based programming experience.
+Welcome to the SLogo project! This Integrated Development Environment (IDE) is crafted for the Logo programming language, as part of Duke University’s CS 308, focusing on Design and Implementation. Our team, composed of four developers, has worked meticulously to provide approximately 6300 lines of code that bring you an immersive turtle-based programming experience.
 
 
 
 
+![alt text](/Users/andywang/Desktop/CS 308/Slogo_CS308/doc/plan/sample1.png)
+
+![alt text](/Users/andywang/Desktop/CS 308/Slogo_CS308/doc/plan/sample2.png)
 
 
 
@@ -51,28 +54,6 @@ Welcome to the SLogo project! This Integrated Development Environment (IDE) is c
       * Clear: Clear all trails and reset the turtles back to their initial position
       * New Window: Open a new Slogo window.
 
-
-
-### Notes
-
-* Features implemented:
-  * All basic SLogo commands
-  * Animation for turtle movement across canvas
-  * SLogo file upload and download
-  * Visualization of workspace information (variables and functions) and command history
-  * Display of additional information on available commands
-  * Support for different languages
-  * Possibility of running unlimited IDE windows simultaneously
-
-* Features unimplemented:
-  * View customization (colors and turtles)
-  * Run commands directly from history
-  * User-defined movement speed for turtle(s)
-
-* Noteworthy Features:
-  * Successfully implemented / displayed user-defined commands and variables
-  * User-friendly error catching
-  * Display of unlimited independent windows
 
 
 
