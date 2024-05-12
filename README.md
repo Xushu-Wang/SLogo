@@ -8,9 +8,9 @@ Welcome to the SLogo project! This Integrated Development Environment (IDE) is c
 <img width="720" alt="Screenshot 2024-05-11 at 21 02 59" src="https://github.com/Xushu-Wang/SLogo/assets/84580259/0255db47-5ef9-498f-b9be-080f4f684535">
 
 
-<div class="center">
+<p align="center">
 <img width="720" alt="Screenshot 2024-05-11 at 21 03 58" src="https://github.com/Xushu-Wang/SLogo/assets/84580259/ae99dcb5-e226-48e5-8158-af733bf8acd1">
-</div>
+</p>
 
 
 
