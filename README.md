@@ -5,11 +5,11 @@
 Welcome to the SLogo project! This Integrated Development Environment (IDE) is crafted for the Logo programming language, as part of Duke University’s CS 308, focusing on Design and Implementation. Our team, composed of four developers, has worked meticulously to provide approximately 6300 lines of code that bring you an immersive turtle-based programming experience.
 
 
+<img width="720" alt="Screenshot 2024-05-11 at 21 02 59" src="https://github.com/Xushu-Wang/SLogo/assets/84580259/0255db47-5ef9-498f-b9be-080f4f684535">
 
 
-![alt text](/Users/andywang/Desktop/CS 308/Slogo_CS308/doc/plan/sample1.png)
 
-![alt text](/Users/andywang/Desktop/CS 308/Slogo_CS308/doc/plan/sample2.png)
+<img width="720" alt="Screenshot 2024-05-11 at 21 03 58" src="https://github.com/Xushu-Wang/SLogo/assets/84580259/ae99dcb5-e226-48e5-8158-af733bf8acd1">
 
 
 
