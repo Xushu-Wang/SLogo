@@ -1,37 +1,25 @@
-# slogo
-## TEAM NUMBER 02
-## Trevon Helm (tmh85), Jay Yoon (jy320), Rodrigo Bassi Guerreiro (rb419), Andy Wang (xw214)
+# SLogo IDE
 
 
-This project implements a Logo interpreter with Graphical User Interface.
 
-### Timeline
-
-* Start Date: February 20th, 2023
-
-* Finish Date: March 11th, 2023
-
-* Hours Spent: 300
+Welcome to the SLogo project! This Integrated Development Environment (IDE) is crafted for the Logo programming language, as part of Duke University’s CS 308, focusing on Design and Implementation. Our team, composed of five developers, has worked meticulously to provide approximately 6300 lines of code that bring you an immersive turtle-based programming experience.
 
 
-### Attributions
 
-* Resources used for learning (including AI assistance):
-  * https://refactoring.guru/design-patterns
 
-* Resources used directly (including AI assistance)
-   * https://digitalsynopsis.com/design/color-schemes-palettes/
-   * https://commons.uncyclomedia.org/wiki/Image:Broom_icon.svg
-   * https://commons.wikimedia.org/wiki/File:Wikibooks-help-icon.svg
-   * https://commons.wikimedia.org/wiki/File:Font_Awesome_5_solid_history.svg
-   * https://commons.wikimedia.org/wiki/File:Emojione_1F3A8.svg
-   * https://freesvg.org/1538154643
-   * https://freesvg.org/vector-image-of-a-dark-blue-labelled-floppy-disk-icon
-   * https://freesvg.org/vector-clip-art-of-striped-folder-icon
-   * https://commons.wikimedia.org/wiki/File:Pedestrian_%2813079%29_-_The_Noun_Project.svg
-   * https://commons.wikimedia.org/wiki/File:Running_icon_-_Noun_Project_17825.svg
-   * https://www.pngall.com/turtle-png
-   * https://freesvg.org/small-turtle-silhouette
+
+
+
+
+
+### Features
+
+* Execute SLogo code across various languages.
+* Animate turtle movements to visualize the execution.
+* Run pre-written SLogo scripts to understand language constructs.
+* Manage multiple workspaces with diverse functions.
+
+
 
 
 ### Running the Program
